@@ -32,7 +32,64 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-center {
+  margin: auto;
+}
+
+
+/* Mui ten tang/giam trong input type="number" */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+}
+
+.profile-image {
+  margin: auto;
+  max-width: 200px;
+  max-height: 200px;
+  border: 2px solid #ee4d2d;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+#active {
+  background-color: gainsboro;
+}
+
+.left-text {
+  text-align: left !important;
+}
+
+.truncate {
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MuiCardActions-root {
+  display: block !important;
 }
